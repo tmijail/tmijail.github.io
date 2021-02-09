@@ -95,6 +95,8 @@ defaults:
       share: true
       related: true
       show_date: true
+      categories:
+        - Blog
   # _pages
   - scope:
       path: "_pages"
