@@ -21,6 +21,14 @@ twitter_username: tmijail
 github_username: tmijail
 minimal_mistakes_skin: air
 search: true
+repository: "tmijail/tmijail.github.io"
+
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light" # "github-dark"
+    issue_term: "pathname"
+
 
 # Build settings
 markdown: kramdown
