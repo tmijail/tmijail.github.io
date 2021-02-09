@@ -24,6 +24,8 @@ search: true
 
 # Build settings
 markdown: kramdown
+kramdown:
+    math_engine: katex
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
@@ -54,9 +56,6 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-
-head_scripts:
-  - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 author:
   name   : "Mijail Todorovich"
