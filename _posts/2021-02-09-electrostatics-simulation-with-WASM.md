@@ -8,14 +8,13 @@ categories:
 tags:
   - WASM
   - Physics
-link: https://mijail.ar/electrostatics
 ---
 
-[![Screenshot](/assets/images/posts/electrostatics.png)](https://mijail.ar/electrostatics)
+[![Screenshot](/assets/images/posts/electrostatics.png)](/electrostatics)
 
 Old unfinished project which aimed to create a modern replacement to *Calculating Electromagnetic Fields and 
 Potentials using Poisson's Equation* by Jarek Tuszynski. I wanted to allow the user to draw arbitrary electrodes at given voltages and simulate the electric potential and electric field. 
 
-I finished the simulation, but never got arround to the drawing part, so it only has two scenarios.
+I finished the simulation but never got arround to the drawing part so it only has two scenarios.
 
-Code on [GitHub](https://github.com/tmijail/electrostatics).
+[<i class="fas fa-play"></i>  Simulation](/electrostatics){: .btn.btn--info} [<i class="fab fa-github"></i>  Code](https://github.com/tmijail/electrostatics){: .btn.btn--primary}
