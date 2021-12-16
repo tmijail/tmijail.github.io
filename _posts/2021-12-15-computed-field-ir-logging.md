@@ -1,5 +1,5 @@
 ---
-title: "Debugging Odoo computed field with `ir.logging`"
+title: "Debugging Odoo compute fields with `ir.logging`"
 categories:
   - Tips
 tags:
