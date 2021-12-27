@@ -12,25 +12,24 @@ We can create a record on the `ir.logging` table, though.
 (Tested on V13)
 ```python
 logging = self.env['ir.logging']
-log = dict(
-	type='client',
-	name='my_compute_field',
-	path='n/a',
-	line='n/a',
-	func='n/a',
-	message=' '
-)
+def log(msg, logging=logging):
+	logging.create(dict(
+		type='client',
+		name='my_compute_field',
+		path='n/a',
+		line='n/a',
+		func='n/a',
+		message=str(msg)
+	))
 
 for rec in records:
   # [...]
 
-  log['message'] = "Hello from the computed field"
-  logging.create(log)
+  log("Hello from the computed field")
 
   # [...]
 
-  log['message'] = "value: " + str(rec.value)
-  logging.create(log)
+  log(rec.value)
 
   # [...]
 ```
