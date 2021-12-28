@@ -13,14 +13,14 @@ We can create a record on the `ir.logging` table, though.
 ```python
 logging = self.env['ir.logging']
 def log(msg, logging=logging):
-	logging.create(dict(
-		type='client',
-		name='my_compute_field',
-		path='n/a',
-		line='n/a',
-		func='n/a',
-		message=str(msg)
-	))
+  logging.create(dict(
+    type='client',
+    name='my_compute_field',
+    path='n/a',
+    line='n/a',
+    func='n/a',
+    message=str(msg)
+  ))
 
 for rec in records:
   # [...]
