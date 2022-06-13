@@ -6,6 +6,7 @@
 \usepackage{tikz}
 \usepackage{pgfplots}
 \usetikzlibrary{shapes}
+\usetikzlibrary{3d}
 \pgfplotsset{width=20cm, compat=1.18}
 %! end preamble = tikz
 
@@ -21,6 +22,9 @@ domain={sin(atan2(rawy,rawx)-\pgfkeysvalueof{/pgfplots/view/az})}{0:1.1}}}
 }
 
 \begin{tikzpicture}[declare function={R=3;H=10;r=2;l=6;t=pi/2;}]
+smallarrowhead/.style={
+        ->,>={Latex[angle=60:3pt]},
+    }
 \begin{axis} [
     view={45}{20},
     axis lines = center,
@@ -73,7 +77,9 @@ domain={sin(atan2(rawy,rawx)-\pgfkeysvalueof{/pgfplots/view/az})}{0:1.1}}}
 
 % Point
 \addplot3[
-    color=red
+    color=red,
+    ->,
+    thick
 ] coordinates 
 {
     (0,0,0)
@@ -84,11 +90,13 @@ domain={sin(atan2(rawy,rawx)-\pgfkeysvalueof{/pgfplots/view/az})}{0:1.1}}}
     domain=0:l,
     samples=101,
     samples y=0,
+    ->,
+    thick
 ]
 ({r*cos(deg(4*pi/H*x))},
 {r*sin(deg(4*pi/H*x))},
 {x});
-\addplot3[samples y=0,domain=0:t,smooth,draw=red] ({r*cos(deg(x + 4*pi/H*l)},{r*sin(deg(x + 4*pi/H*l))},{l});
+\addplot3[samples y=0,domain=0:t,smooth,draw=red, ->, thick] ({r*cos(deg(x + 4*pi/H*l)},{r*sin(deg(x + 4*pi/H*l))},{l});
 \addplot3[samples y=0,domain=0:360,smooth,draw=gray, opacity=0.5] ({R*cos(x)},{R*sin(x)},{l});
 \addplot3[
     draw=red, opacity=0.4
@@ -99,6 +107,7 @@ domain={sin(atan2(rawy,rawx)-\pgfkeysvalueof{/pgfplots/view/az})}{0:1.1}}}
     ({r*cos(deg(t + 4*pi/H*l)},{r*sin(deg(t + 4*pi/H*l))},l)
 };
 \addplot3[samples y=0,domain=0:t,smooth,draw=red, opacity=0.4] ({0.5*cos(deg(x + 4*pi/H*l)},{0.5*sin(deg(x + 4*pi/H*l))},{l});
+\node at (-0.5,0.3,l+0.2) [red, opacity=0.4] {$\theta$};
 
 % Plane
 \addplot3[
@@ -111,6 +120,8 @@ domain={sin(atan2(rawy,rawx)-\pgfkeysvalueof{/pgfplots/view/az})}{0:1.1}}}
     ({+R+1},{-R-1},l)
     ({-R-1},{-R-1},l)
 };
+
+
 \end{axis}
 \end{tikzpicture}
 

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.6.12)  12 JUN 2022 23:24
+This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.6.12)  13 JUN 2022 20:20
  restricted system commands enabled.
 **helicoid.tex
 (./helicoid.tex
@@ -650,6 +650,10 @@ File: pgflibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfnodepartsixbox=\box80
 \pgfnodepartfivebox=\box81
 )))
+(C:/Users/Mijail/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/ti
+kz/libraries/tikzlibrary3d.code.tex
+File: tikzlibrary3d.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
 (C:/Users/Mijail/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-lu
 atex.def
 File: l3backend-luatex.def 2022-04-20 L3 backend support: PDF output (LuaTeX)
@@ -658,28 +662,28 @@ File: l3backend-luatex.def 2022-04-20 L3 backend support: PDF output (LuaTeX)
 ) (./helicoid.aux)
 \openout1 = helicoid.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-2.
+3.
 
 (C:/Users/Mijail/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -747,36 +751,84 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 LUA survey failed: ...tex/generic/pgf/libraries/luamath/pgf/luamath/parser.lua:3
 41: The string 'r*cos(deg(x + 4*pi/H*l)' is no valid PGF math expression. Please
  check for syntax errors.. Use \pgfplotsset{lua debug} to see more.
-Package pgfplots info on input line 91: lua backend=true: LUA version of plot e
+Package pgfplots info on input line 99: lua backend=true: LUA version of plot e
 xpression failed. Using TeX version. (plot 6).
 LUA survey failed: ...tex/generic/pgf/libraries/luamath/pgf/luamath/parser.lua:3
 41: The string '0.5*cos(deg(x + 4*pi/H*l)' is no valid PGF math expression. Plea
 se check for syntax errors.. Use \pgfplotsset{lua debug} to see more.
-Package pgfplots info on input line 101: lua backend=true: LUA version of plot 
+Package pgfplots info on input line 109: lua backend=true: LUA version of plot 
 expression failed. Using TeX version. (plot 9).
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 114.
+(Font)              <7> on input line 125.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 114.
+(Font)              <5> on input line 125.
 [1
 
+
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no / (U+002F) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no - (U+002D) in font nullfont!
+Missing character: There is no > (U+003E) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no > (U+003E) in font nullfont!
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no L (U+004C) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no x (U+0078) in font nullfont!
+Missing character: There is no [ (U+005B) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no 6 (U+0036) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no : (U+003A) in font nullfont!
+Missing character: There is no 3 (U+0033) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no ] (U+005D) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
 {C:/Users/Mijail/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 (./helicoid.aux))
 
 Here is how much of LuaTeX's memory you used:
- 25591 strings out of 477742
+ 25659 strings out of 477742
  156256,2373549 words of node,token memory allocated
  413 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 48 glue_spec,
  5 attribute_list, 2 write nodes
-   avail lists: 2:29825,3:29155,4:38,5:26,6:2,7:814,8:1,9:122
- 45536 multiletter control sequences out of 65536+600000
+   avail lists: 2:29929,3:29217,4:50,5:28,6:2,7:950,8:1,9:136,11:2
+ 45597 multiletter control sequences out of 65536+600000
  25 fonts using 1345055 bytes
- 100i,9n,98p,726b,2277s stack positions out of 10000i,1000n,20000p,344570b,80000s
+ 100i,9n,98p,726b,2360s stack positions out of 10000i,1000n,20000p,344570b,80000s
 <//?/c:/users/mijail/appdata/local/programs/miktex/fonts/opentype/public/lm/lmro
 man10-regular.otf><C:/Users/Mijail/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmmi10.pfb>
-Output written on helicoid.pdf (1 page, 40053 bytes).
+Output written on helicoid.pdf (1 page, 40659 bytes).
 
 PDF statistics: 20 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
